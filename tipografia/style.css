@@ -1,0 +1,36 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo de la página */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos del texto Pop Art */
+.pop-art-text {
+    font-family: 'Bangers', sans-serif;  /* Tipografía estilo cómic/pop art */
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff007f;
+    text-shadow: 5px 5px 0 #ff5f00, 10px 10px 0 #00ff00, 15px 15px 0 #0000ff; /* Sombra llamativa estilo pop art */
+    background: linear-gradient(45deg, #ff007f, #ff5f00, #00ff00, #0000ff); /* Gradiente de colores brillantes */
+    color: transparent;
+    padding: 50px;
+    letter-spacing: 2px;
+    border: 5px solid #000;
+    display: inline-block;
+    margin-top: 100px;
+    transform: rotate(-10deg); /* Girar un poco el texto */
+}
+
+/* Efecto en hover (al pasar el ratón) */
+.pop-art-text:hover {
+    transform: rotate(0deg);
+    text-shadow: 8px 8px 5px rgba(0, 0, 0, 0.5), 10px 10px 15px rgba(255, 0, 255, 0.7);
+}
