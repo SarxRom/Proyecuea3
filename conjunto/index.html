@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Punto Rojo</title>
     <link rel="stylesheet" href="style.css">
+   <!-- Incluir Three.js y el cargador de GLTF -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/loaders/GLTFLoader.js"></script>
 </head>
 <body>
     <a href="index2.html" class="imagen-enlace">
-        <img src="assets/gatoblanco.jpg" alt="Imagen de ejemplo" class="imagen-centrada"/>
+        <img src="assets/gatomariguas.jpg" alt="gato" class="imagen-centrada"/>
     </a>
+
+    <!-- Contenedor para el modelo 3D -->
+    <div id="modelo3d-container"></div>
 
     <div class="titulo-arqueado">
         <h1>
@@ -33,5 +39,7 @@
             <span>D</span>
         </h1>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

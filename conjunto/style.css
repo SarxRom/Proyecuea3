@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    background-color: #f0f0f0;
+    overflow: hidden; 
+    text-align: center; 
+    flex-direction: column;
+}
+
+#modelo3d-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.titulo-arqueado {
+    position: absolute;
+    display: block;
+    text-align: center;
+    z-index: 1; /* Asegura que el texto esté encima del modelo 3D */
+}
+
+.titulo-arqueado h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    margin: 0;
+    position: relative;
+}
+
+.titulo-arqueado span {
+    position: absolute;
+    left: 50%;
+    transform-origin: center;
+    transform: translateX(-50%);
+}
